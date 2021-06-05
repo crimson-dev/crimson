@@ -1,7 +1,7 @@
 # Development
 
-1. Install `react-native` by following platform and os specific instructions [here](https://reactnative.dev/docs/environment-setup). We are using React Native CLI.
-2. You can confirm that you have setup the devlopment environment correctly, e.g (Android SDK, JDK) by creating a brand new project and running it.
+1. Install `react-native` by following Platform and OS specific instructions [here](https://reactnative.dev/docs/environment-setup). We are using React Native CLI.
+2. You can confirm that you have setup the development environment correctly, e.g (Android SDK, JDK) by creating a brand new project and running it.
 3. Clone this repo and install dependencies.
 
 ```sh
@@ -31,7 +31,7 @@ $ npx react-native run-android # this will pick up any default created emulators
   3. To run the emulator, do
 
   ```sh
-  $ emulator -avd @crimsonAVD
+  $ emulator -avd crimsonAVD
   ```
 
 - If command `react-native run-android` stays stuck on `Starting JS Server...`, then most likely port 8081 is busy.
