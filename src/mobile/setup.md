@@ -40,6 +40,8 @@ $ npx react-native run-android # this will pick up any default created emulators
   1. Free the port by `sudo fuser -k 8081/tcp`, assuming you want to do so.
   2. open a new shell in the same directory, and do `npx react-native start`.
 
+- If there's issues with app not connecting to the metro bundler, follow steps mentioned in [this](https://stackoverflow.com/a/55147267/2805739) answer and if that fails try other workarounds mentioned in the thread.
+
 # Build
 
 For building the application.
