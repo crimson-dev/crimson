@@ -2,6 +2,7 @@
 
 # directory structure
 
-| Description | Directory  |
-| ----------- | ---------- |
-| Mobile App  | `./mobile` |
+| Description | Directory                      |
+| ----------- | ------------------------------ |
+| Mobile App  | [`./src/mobile`](./src/mobile) |
+| Docs        | [`./docs`](./docs)             |
