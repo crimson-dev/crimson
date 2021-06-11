@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  TouchableNativeFeedback,
-  View,
-  Text,
-  StyleSheet,
-  ViewStyle,
-} from 'react-native';
+import {TouchableNativeFeedback, View, Text, StyleSheet, ViewStyle} from 'react-native';
 
 interface ButtonProps {
   onPress: (event: Event) => void;
